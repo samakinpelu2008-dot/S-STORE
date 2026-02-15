@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>S.Store - Sammy App Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🔥 S.Store</h1>
+  <p>Your Personal App Marketplace</p>
+
+  <div id="appList" class="app-container"></div>
+
+  <hr>
+
+  <h2>Admin Upload</h2>
+  <input type="text" id="appName" placeholder="App Name"><br>
+  <input type="text" id="appDesc" placeholder="App Description"><br>
+  <input type="text" id="appVersion" placeholder="Version"><br>
+  <input type="file" id="appFile"><br><br>
+  <button onclick="uploadApp()">Upload App</button>
+
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
